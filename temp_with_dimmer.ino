@@ -2,8 +2,8 @@
 #include "application.h"
 
 // debugging options
-#define CLOUD_DEBUG_ON
-#define WEBHOOKS_DEBUG_ON
+//#define CLOUD_DEBUG_ON
+//#define WEBHOOKS_DEBUG_ON
 //#define STATE_DEBUG_ON
 #define DATA_DEBUG_ON
 #define SERIAL_DEBUG_ON
@@ -11,7 +11,7 @@
 
 // keep track of installed version
 #define STATE_VERSION    1 // update whenver structure changes
-#define DEVICE_VERSION  "T 0.1.0" // update with every code update
+#define DEVICE_VERSION  "T 0.1.1" // update with every code update
 
 // scale controller
 #include "device/SerialDeviceState.h"
